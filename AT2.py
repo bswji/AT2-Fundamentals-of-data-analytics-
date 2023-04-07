@@ -11,3 +11,34 @@ data = data.drop(columns = ["Unnamed: 0", "id"])
 #Find unique values in customer type 
 data['Customer Type'].unique()
 
+#Find unique values in type of travel
+data['Type of Travel'].unique()
+
+#Find unique values of Class
+data['Class'].unique()
+
+#Find unique values of flight distance
+data['Flight Distance'].unique()
+
+data['Inflight wifi service'].unique()
+data['Departure/Arrival time convenient'].unique()
+data['Ease of Online booking'].unique()
+data['Gate location'].unique()
+data['Food and drink'].unique()
+data['Online boarding'].unique()
+data['Seat comfort'].unique()
+data['Inflight entertainment'].unique()
+data['On-board service'].unique()
+data['Leg room service'].unique()
+data['Baggage handling'].unique()
+data['Checkin service'].unique()
+data['Inflight service'].unique()
+data['Cleanliness'].unique()
+data['Departure Delay in Minutes'].unique()
+data['Arrival Delay in Minutes'].unique()
+data['satisfaction'].unique()
+
+sum(data['Inflight wifi service'] == 0)
+
+#Summary statistics
+#
